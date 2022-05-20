@@ -11,7 +11,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* scroollbar personalizado */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -215,9 +214,7 @@ section .title::after{
 }
 
 /* ESTILIZANDO O SOBRE MIM*/
-.about .title::after{
-    content: "quem sou eu";
-}
+
 .about .about-content .left{
     width: 45%;
 }
@@ -270,7 +267,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "o que eu forneço";
+
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -306,9 +303,6 @@ section .title::after{
 
 /* ESTILIZANDO MINHAS SKILLS/HABILIDADES */
 
-.skills .title::after{
-    content: "o quê eu sei";
-}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -386,9 +380,7 @@ section .title::after{
 
 /* CARROSEL */
 
-.teams .title::after{
-    content: "Atividades";
-}
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -449,9 +441,6 @@ section .title::after{
 }
 
 /* ESTILIZANDO O CONTATO */
-.contact .title::after{
-    content: "Entre em contato";
-}
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -557,7 +546,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
 
 
 /* RESPONSIVO */
